@@ -6,7 +6,6 @@ using UnityEngine;
 public class Ex3 : MonoBehaviour
 {
     [SerializeField] int variabile = 30;
-    int i;
     // Start is called before the first frame update
     void Start()
     {

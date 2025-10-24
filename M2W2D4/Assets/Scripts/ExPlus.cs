@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ex4 : MonoBehaviour
+public class ExPlus : MonoBehaviour
 {
-    [SerializeField] int startNumber = 5;
-    [SerializeField] int amount = 3;
+    [SerializeField] private int tabellina;
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i <= amount; i++)
+        for (int i = 1; i <=10; i++)
         {
-            Debug.Log(startNumber + i);
+            Debug.Log(i * tabellina);
         }
     }
 
